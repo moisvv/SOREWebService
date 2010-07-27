@@ -1,0 +1,9 @@
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\bin\SOREWebService.dll
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\bin\SOREWebService.pdb
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\obj\Debug\SOREWebService.dll
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\obj\Debug\SOREWebService.pdb
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\bin\CommonServer.xml
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\bin\NLog.dll
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\bin\NLog.xml
+C:\Documents and Settings\moises.vilar\Mis documentos\Visual Studio 2005\Projects\SOREWebService\SOREWebService\bin\NLog.config

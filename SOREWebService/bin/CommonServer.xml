@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonServer</name>
+    </assembly>
+    <members>
+        <member name="T:CommonServer.Model.DAO.AbstractDAO">
+            <summary>
+            Data Access Object que factoriza el código comun a todos los daos.
+            </summary>
+        </member>
+        <member name="M:CommonServer.Model.DAO.AbstractDAO.#ctor(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            Es una clase abstracta. Se instancia a traves de subclases
+            </summary>
+            <param name="con"></param>
+        </member>
+        <member name="T:CommonServer.Model.DAO.ErrorReportDAO">
+            <summary>
+            DAO para guardar en la BBDD los informes de errores.
+            </summary>
+        </member>
+        <member name="F:CommonServer.Model.DAO.ErrorReportDAO.InsertComand">
+            <summary>
+            Sentencia SQL que inserta el registro en la BBDD.
+            INSERT INTO ERRORES (DESCRIPCION) VALUES (@descripcion)
+            </summary>
+        </member>
+        <member name="M:CommonServer.Model.DAO.ErrorReportDAO.#ctor(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            Se crea a partir de una conexión a la base de datos
+            </summary>
+            <param name="con"></param>
+        </member>
+        <member name="M:CommonServer.Model.DAO.ErrorReportDAO.InsertReport(CommonServer.Model.VO.ErrorReportVO)">
+            <summary>
+            Inserta el registro en la BBDD.
+            </summary>
+        </member>
+        <member name="T:CommonServer.Model.VO.ErrorReportVO">
+            <summary>
+            Value Object que almacena los atributos de un informe de error. Simplemente la descripción del error por ahora.
+            </summary>
+        </member>
+        <member name="M:CommonServer.Model.VO.ErrorReportVO.#ctor(System.String)">
+            <summary>
+            El objeto se crea a partir de la descripción.
+            </summary>
+            <param name="msg">Normalmente contendrá el valor del mensaje de la excepción que provocó el error.</param>
+        </member>
+        <member name="P:CommonServer.Model.VO.ErrorReportVO.Description">
+            <summary>
+            Obtiene la descripcion del error.
+            </summary>
+        </member>
+    </members>
+</doc>
